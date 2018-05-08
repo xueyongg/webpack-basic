@@ -1,0 +1,19 @@
+{
+  "name": "webpack-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "build": "webpack src/app.js dist/bundle.js",
+    "build:prod": "webpack src/app.js dist/bundle.js -p"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Xueyong",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.8.1"
+  }
+}
